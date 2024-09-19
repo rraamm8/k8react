@@ -1,24 +1,15 @@
-import logo from './logo.svg';
+import clock from './clock.png';
 import './App.css';
-import { CiCoinInsert } from "react-icons/ci";
+import MyClockTime from './01/MyClockTime';
+import MyClock from './02/MyClock';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className='bg-slate-200'>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-          <CiCoinInsert />
-        </a>
+        <img src={clock} className="App-logo" alt="logo" />
+        <MyClockTime />
+        <MyClock />
       </header>
     </div>
   );
