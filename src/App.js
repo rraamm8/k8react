@@ -1,6 +1,7 @@
 import './App.css';
 import { TiHome } from "react-icons/ti";
 import MyDiv1 from './03/MyDiv1';
+import MyList from './04/MyList';
 
 function App() {
   return (
@@ -19,8 +20,8 @@ function App() {
       <main className ='w-full grow
                         flex flex-col justify-center items-center
                         overflow-y-scroll'>
-      <MyDiv1 />
 
+      <MyList />
       </main>
       <footer className='w-full h-20
                         flex justify-center items-center
