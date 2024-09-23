@@ -1,6 +1,9 @@
 import './App.css';
-import { TiHome } from "react-icons/ti";
-import MyDiv1 from './03/MyDiv1';
+import { FaHome } from "react-icons/fa";
+
+// import Hello from './01/Hello' ;
+// import MyClock from './02/MyClock' ;
+// import MyDiv1 from './03/MyDiv1';
 import MyList from './04/MyList';
 
 function App() {
