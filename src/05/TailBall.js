@@ -4,7 +4,7 @@ export default function TailBall({n}) {
     'b0' : 'bg-red-800',
     'b1' : 'bg-yellow-800',
     'b2' : 'bg-orange-800',
-    'b3' : 'bg-green-800',
+    'b3' : 'bg-green-800',  
     'b4' : 'bg-purple-800'
   }
 
