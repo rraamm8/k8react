@@ -43,7 +43,7 @@ export default function BoxOffice() {
       <table className="w-10/12 text-sm text-left rtl:text-right text-gray-500">
         <thead className="text-md font-bold text-white  bg-black">
           <tr>
-            <th scope="col" className="px-6 py-3">
+              <th scope="col" className="px-6 py-3">
               순위
             </th>
             <th scope="col" className="px-6 py-3">
@@ -63,6 +63,13 @@ export default function BoxOffice() {
         <tbody>
           {trs}
         </tbody>
+        <tfoot>
+          <tr className = "bg-black text-white w-full
+                          text-center
+                          h-10 p-2">
+            <td colSpan={5} >test</td>
+          </tr>
+        </tfoot>
       </table>
     </div>
   )
