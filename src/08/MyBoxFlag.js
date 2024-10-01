@@ -21,7 +21,7 @@ export default function MyBoxFlag({color}) {
                             p-5 m-5
                             ">
                 <h1 className={`flex justify-center items-center 
-                                text-3xl font-bold 
+                                text-3xl font-bold text-${color}-300
                                 p-5 m-5 border 
                                 ${flag ? `border-${color}-600` : 'border-gray-600'} rounded-md`}>
                     {color}
