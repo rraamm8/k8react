@@ -10,7 +10,8 @@ import { FaHome } from "react-icons/fa";
 //import BoxOffice from './07/BoxOffice';
 //import MyBox from './08/MyBox';
 //import Traffic from './09/Traffic';
-import MyRef from './10/MyRef';
+//import MyRef from './10/MyRef';
+import Gallery from './11/Gallery';
 
 function App() {
   return (
@@ -27,13 +28,14 @@ function App() {
         </p>
       </header>
       <main className='w-full grow
-                       flex flex-col justify-center items-center
+                       flex flex-col justify-start items-center
                        overflow-y-auto'>
 
         {/* <MyDiv1 /> */}
         {/* <MyList /> */}
         {/* <Lotto /> */}
-        <MyRef />
+        {/* <BoxOffice /> */}
+        <Gallery />
       </main>
       <footer className='w-full h-20
                          flex justify-center items-center
