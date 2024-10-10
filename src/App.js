@@ -11,7 +11,8 @@ import { FaHome } from "react-icons/fa";
 //import MyBox from './08/MyBox';
 //import Traffic from './09/Traffic';
 //import MyRef from './10/MyRef';
-import Gallery from './11/Gallery';
+//import Gallery from './11/Gallery';
+import Festival from './12/Festival';
 
 function App() {
   return (
@@ -35,9 +36,10 @@ function App() {
         {/* <MyList /> */}
         {/* <Lotto /> */}
         {/* <BoxOffice /> */}
-        <Gallery />
+        {/* <Gallery /> */}
+        <Festival />
       </main>
-      <footer className='w-full h-20
+      <footer className='w-full h-20 flex-shrink-0
                          flex justify-center items-center
                          bg-black text-white'>
         <p>K-digital 8기 이가람</p>                  
